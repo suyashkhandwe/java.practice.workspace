@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ *
+ */
+public class MyQueue implements IMyQueue {
+	
+	
+
+	/* (non-Javadoc)
+	 * @see data.structure.implementation.IMyQueue#add(java.lang.String)
+	 */
+	@Override
+	public void add(String element) {
+
+	}
+
+	/* (non-Javadoc)
+	 * @see data.structure.implementation.IMyQueue#peek()
+	 */
+	@Override
+	public String peek() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see data.structure.implementation.IMyQueue#poll()
+	 */
+	@Override
+	public String poll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

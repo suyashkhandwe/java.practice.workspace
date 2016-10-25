@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ * Implements base methods for MyStack class. More methods to be implemented soon
+ */
+public interface IMyStack {
+
+}

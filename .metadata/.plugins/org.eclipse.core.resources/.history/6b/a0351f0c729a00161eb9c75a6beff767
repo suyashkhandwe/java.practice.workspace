@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ *Implements base methods for QueueImplemetaion class
+ */
+public interface IMyQueue {
+	/**
+	 * Adds the given string element to the Queue
+	 * @param element Element to be added to the queue
+	 */
+public void add(String element);
+/**
+ * Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+ * @return Head of the queue or null
+ */
+public String peek();
+/**
+ * 
+ * @return
+ */
+public String poll();
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ *Impleaments base methods for QueueImplemetaion class
+ */
+public interface IQueueImplementation {
+
+}

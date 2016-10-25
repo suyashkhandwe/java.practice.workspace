@@ -1,0 +1,68 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash MyStack class exposes methods to handle basic functions in a
+ *         queue
+ *
+ */
+public class MyStack implements IMyStack {
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see data.structure.implementation.IMyStack#empty()
+	 */
+	@Override
+	public boolean empty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see data.structure.implementation.IMyStack#peek()
+	 */
+	@Override
+	public String peek() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see data.structure.implementation.IMyStack#pop()
+	 */
+	@Override
+	public String pop() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see data.structure.implementation.IMyStack#push(java.lang.String)
+	 */
+	@Override
+	public String push(String element) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see data.structure.implementation.IMyStack#search(java.lang.String)
+	 */
+	@Override
+	public int search(String element) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

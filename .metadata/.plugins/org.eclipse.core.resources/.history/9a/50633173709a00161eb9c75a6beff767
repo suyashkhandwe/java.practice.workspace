@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ * Main entry for the code
+ */
+public class DataStructureImplementationMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

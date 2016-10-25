@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ *Implements base methods for QueueImplemetaion class
+ */
+public interface IMyQueue {
+public boolean add(Object element);
+public Object peek();
+public Object poll();
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash
+ *
+ */
+public interface IMyStack {
+
+}

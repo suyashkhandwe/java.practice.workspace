@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package data.structure.implementation;
+
+/**
+ * @author Suyash Implements base methods for MyStack class. More methods to be
+ *         implemented soon
+ */
+public interface IMyStack {
+
+	/**
+	 * Tests if this stack is empty. Returns true if the stack is empty, and
+	 * returns false if the stack contains elements.
+	 * 
+	 * @return TRUE : If the stack is empty. FALSE : If stack has elements
+	 */
+	public boolean empty();
+
+	/**
+	 * Returns the element on the top of the stack, but does not remove it.
+	 * 
+	 * @return Element on the top of the stack, but does not remove it.
+	 */
+	public String peek();
+
+	/**
+	 * Returns the element on the top of the stack, removing it in the process.
+	 * 
+	 * @return Element on the top of the stack, removing it in the process.
+	 */
+	public String pop();
+
+	/**
+	 * Pushes the element onto the stack. Element is also returned.
+	 * 
+	 * @param item
+	 *            Element to be added to the stack
+	 * @return Element which was just added to the stack
+	 */
+	public String push(String item);
+
+	/**
+	 * Searches for element in the stack. If found, its offset from the top of
+	 * the stack is returned. Otherwise, .1 is returned.
+	 * 
+	 * @param item
+	 *            Element to be searched in the stack
+	 * @return Offset of the element from the top
+	 */
+	int search(String item);
+
+}
